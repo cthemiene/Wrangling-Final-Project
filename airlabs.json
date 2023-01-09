@@ -1,0 +1,447 @@
+{
+    "request": {
+        "client": {
+            "agent": {},
+            "connection": {},
+            "device": {},
+            "geo": {
+                "continent": "North America",
+                "country": "United States",
+                "country_code": "US",
+                "lat": 39.76,
+                "lng": -98.5
+            },
+            "ip": "2604:2d80:d506:c400:b456:c32f:e9:23b4",
+            "karma": {
+                "is_blocked": false,
+                "is_bot": false,
+                "is_crawler": false,
+                "is_friend": false,
+                "is_regular": true
+            }
+        },
+        "currency": "USD",
+        "host": "airlabs.co",
+        "id": "lu91z68g5pc",
+        "key": {
+            "api_key": "API_KEY",
+            "expired": "2023-01-17T01:04:48.000Z",
+            "id": 21319,
+            "limits_by_hour": 0,
+            "limits_by_minute": 0,
+            "limits_by_month": 25000,
+            "limits_total": 24999,
+            "registered": "2022-12-11T05:47:45.000Z",
+            "type": "developer"
+        },
+        "lang": "en",
+        "method": "delays",
+        "params": {
+            "_fields": "dep_iata,name,airline_iata,delayed,status,dep_time",
+            "delay": "30",
+            "dep_iata": "ATL",
+            "lang": "en",
+            "params1": "value1",
+            "type": "departures"
+        },
+        "pid": 1885303,
+        "server": "o",
+        "time": 13,
+        "version": 9
+    },
+    "response": [
+        {
+            "airline_iata": "AM",
+            "delayed": 48,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:18",
+            "status": "active"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 48,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:18",
+            "status": "active"
+        },
+        {
+            "airline_iata": "KL",
+            "delayed": 48,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:18",
+            "status": "active"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 30,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:00",
+            "status": "active"
+        },
+        {
+            "airline_iata": "WN",
+            "delayed": 44,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:40",
+            "status": "active"
+        },
+        {
+            "airline_iata": "9E",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:10",
+            "status": "active"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:10",
+            "status": "active"
+        },
+        {
+            "airline_iata": "WN",
+            "delayed": 81,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:30",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 109,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:20",
+            "status": "active"
+        },
+        {
+            "airline_iata": "AM",
+            "delayed": 30,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:40",
+            "status": "active"
+        },
+        {
+            "airline_iata": "AR",
+            "delayed": 30,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:40",
+            "status": "active"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 30,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:40",
+            "status": "active"
+        },
+        {
+            "airline_iata": "LA",
+            "delayed": 30,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:40",
+            "status": "active"
+        },
+        {
+            "airline_iata": "9E",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "KE",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "KL",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "VS",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WS",
+            "delayed": 807,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-11 20:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 98,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:40",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "LA",
+            "delayed": 98,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:40",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "AA",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "B6",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "EI",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "FI",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "HA",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "QR",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "TP",
+            "delayed": 31,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:59",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 61,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 08:55",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WN",
+            "delayed": 40,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:15",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 64,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:02",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "CM",
+            "delayed": 125,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:30",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "UA",
+            "delayed": 125,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:30",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "YV",
+            "delayed": 125,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:30",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 36,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 11:02",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "KE",
+            "delayed": 36,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 11:02",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 42,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:49",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "NH",
+            "delayed": 258,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 07:21",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "NZ",
+            "delayed": 258,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 07:21",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "UA",
+            "delayed": 258,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 07:21",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "VS",
+            "delayed": 42,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:49",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WS",
+            "delayed": 42,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:49",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "YV",
+            "delayed": 258,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 07:21",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 107,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:45",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "AM",
+            "delayed": 124,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:46",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 124,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:46",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "KL",
+            "delayed": 124,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 09:46",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 51,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WS",
+            "delayed": 51,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 10:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "DL",
+            "delayed": 42,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 12:20",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WS",
+            "delayed": 42,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 12:20",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "F9",
+            "delayed": 67,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 12:54",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "WN",
+            "delayed": 47,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 14:50",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "AA",
+            "delayed": 215,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 18:05",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "AS",
+            "delayed": 215,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 18:05",
+            "status": "scheduled"
+        },
+        {
+            "airline_iata": "QR",
+            "delayed": 215,
+            "dep_iata": "ATL",
+            "dep_time": "2022-12-12 18:05",
+            "status": "scheduled"
+        }
+    ],
+    "terms": "Unauthorized access is prohibited and punishable by law. \nReselling data 'As Is' without AirLabs.Co permission is strictly prohibited. \nFull terms on https://airlabs.co/. \nContact us info@airlabs.co"
+}
